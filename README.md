@@ -6,7 +6,7 @@
 - JS
 
 ## In-Class Assignments
-- ICA1
+- [ICA1] (file:///Users/morganbreheny/Downloads/Morgan%20Breheny%20-%20ICA1%20--%20How%20to%20Search.pdf)
 - ICA2
 - ICA3
 - ICA4 
@@ -23,7 +23,7 @@
 - ICA15
 
 ## Weekly Assignments
-- WA1
+- [WA1] (https://morgan-breheny.github.io/)
 - WA2
 - WA3
 - WA4
