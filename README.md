@@ -6,7 +6,7 @@
 - JS
 
 ## In-Class Assignments
-- [ICA1] (file:///Users/morganbreheny/Downloads/Morgan%20Breheny%20-%20ICA1%20--%20How%20to%20Search.pdf)
+- [ICA1] (https://github.com/morgan-breheny/morgan-breheny.github.io/blob/1cf902f340f564de805456fb5d028a7079242c50/Morgan%20Breheny%20-%20ICA1%20--%20How%20to%20Search.pdf)
 - ICA2
 - ICA3
 - ICA4 
