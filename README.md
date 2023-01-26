@@ -24,7 +24,7 @@
 
 ## Weekly Assignments
 - [WA1] (https://morgan-breheny.github.io/)
-- WA2
+- [WA2] (https://morgan-breheny.github.io/wa/wa2.html)
 - WA3
 - WA4
 - WA5
