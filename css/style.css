@@ -54,12 +54,12 @@ body {
   .card h2{
     margin: 0;
     font-size: 20px;
-    line-height: normal;
+    vertical-align: middle;
   }
 
   #footertext{
     font-size: 15px;
-    line-height: 15px;
+    vertical-align: middle;
     margin: 0;
   }
 
@@ -67,6 +67,7 @@ body {
     padding-left: 10px;
     color: white;
     margin: 0;
+    vertical-align: middle;
   }
   
 
@@ -114,12 +115,12 @@ body {
     .mycard h2{
       margin: 0;
       font-size: 20px;
-      line-height: 25px;
+      vertical-align: middle;
     }
   
     #footertext{
       font-size: 15px;
-      line-height: 15px;
+      vertical-align: middle;
       margin: 0;
     }
   
@@ -127,4 +128,5 @@ body {
       padding-left: 10px;
       color: white;
       margin: 0;
+      vertical-align: middle;
     }
