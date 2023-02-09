@@ -24,20 +24,26 @@ body {
   .card header{
     background-image: linear-gradient(to bottom,rgba(0,0,0,0.1), rgba(0,0,0,0));
     border-radius: 1.5em 1.5em 0 0;
-    height: 3.125em;
-    padding: 0.625em;
+    height: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
   }
   
   .card footer{
     background-image: linear-gradient(to bottom,rgba(0,0,0,0), rgba(0,0,0,0.1));
     border-radius: 0 0 1.5em 1.5em;
-    height: 3.125em;
-    padding: 0.625em;
+    height: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
   }
   
   /* Styles specific to main business card content set up */
   .card article {
-    height: 7.5em;
+    height: 120px;
     background-color: rgba(0,0,0,0.3);
   }
   .card img{
@@ -46,11 +52,11 @@ body {
   }
 
   .card h2{
-    margin: 0em;
-    font-size: 1.25em;
+    margin: 0;
+    font-size: 20px;
   }
   
   .card p{
-    margin: 0em;
+    margin: 0;
   }
   
