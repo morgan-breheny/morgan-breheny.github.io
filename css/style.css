@@ -71,3 +71,64 @@ body {
     color: white;
   }
   
+
+    /* Styles specific to card container set up */
+    .mycard{
+      width: 35em;
+      height: 22em;
+      margin: 5em auto;
+      background-color: purple;
+      border: 0.2em solid black;
+      border-radius: 1.5em;
+    }
+    
+    /* Styles specific to header & footer set up */
+    .mycard header{
+      background-image: linear-gradient(to bottom,rgba(0,0,0,0.1), rgba(0,0,0,0));
+      border-radius: 1.5em 1.5em 0 0;
+      height: 50px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+    
+    .mycard footer{
+      background-image: linear-gradient(to bottom,rgba(0,0,0,0), rgba(0,0,0,0.1));
+      border-radius: 0 0 1.5em 1.5em;
+      height: 50px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+    
+    /* Styles specific to main business card content set up */
+    .mycard article {
+      height: 120px;
+      background-color: rgba(0,0,0,0.3);
+    }
+    .mycard img{
+      max-height: 100%;
+      float: right;
+    }
+  
+    .mycard h2{
+      margin: 0;
+      font-size: 20px;
+      line-height: 15px;
+    }
+    
+    .mycard p{
+      margin: 0;
+    }
+  
+    #footertext{
+      font-size: 15px;
+      line-height: 15px;
+    }
+  
+    #articletext{
+      padding-left: 10px;
+      color: white;
+    }
