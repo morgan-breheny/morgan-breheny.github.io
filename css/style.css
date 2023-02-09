@@ -54,9 +54,20 @@ body {
   .card h2{
     margin: 0;
     font-size: 20px;
+    line-height: 15px;
   }
   
   .card p{
     margin: 0;
+  }
+
+  #footertext{
+    font-size: 15px;
+    line-height: 15px;
+  }
+
+  #articletext{
+    padding-left: 10px;
+    color: white;
   }
   
