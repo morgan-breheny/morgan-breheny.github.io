@@ -38,9 +38,9 @@ body {
   /* Styles specific to main business card content set up */
   .card article {
     height: 7.5em;
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0,0,0,0.3);
   }
-  .card article img{
+  .card img{
     max-height: 100%;
     float: right;
   }
