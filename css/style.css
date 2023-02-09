@@ -54,7 +54,7 @@ body {
   .card h2{
     margin: 0;
     font-size: 20px;
-    line-height: 15px;
+    line-height: 25px;
   }
 
   #footertext{
@@ -114,7 +114,7 @@ body {
     .mycard h2{
       margin: 0;
       font-size: 20px;
-      line-height: 15px;
+      line-height: 25px;
     }
   
     #footertext{
