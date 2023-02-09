@@ -36,19 +36,22 @@ body {
   }
   
   /* Styles specific to main business card content set up */
-  .card article img {
-    max-height: 100%;
-    float: right;
+  .card article {
+    
     height: 7.5em;
     background-color: rgba(0,0,0,0.5);
   }
+  .card img{
+    max-height: 100%;
+    float: right;
+  }
 
-  h2{
+  .card h2{
     margin: 0em;
     font-size: 1.25em;
   }
   
-  p{
+  .card p{
     margin: 0em;
   }
   
