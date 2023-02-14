@@ -9,6 +9,8 @@
   body {
     margin: 0;
     background: white;
+    background: url(top-image.png) no-repeat top center;
+    background: url(bottom-image.png) no-repeat bottom center;
   }
   
   article {
@@ -39,8 +41,5 @@
   }
   
   /* Your CSS below here */
-  body { background: url(top-image.png) no-repeat top center;
-         background: url(bottom-image.png) no-repeat bottom center;
-
-  }
+ 
  
