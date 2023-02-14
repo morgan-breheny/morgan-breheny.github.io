@@ -39,6 +39,11 @@
   }
   
   /* Your CSS below here */
+  body { background: url(./top-image.png) no-repeat top center;
+        background: url(./bottom-image.png) no-repeat bottom center;
+
+}
+/*
   .top{
     max-width: 100%;
     background-position: top center;
@@ -48,4 +53,5 @@
     max-width: 100%;
     background-position: bottom center;
   }
+  */
  
