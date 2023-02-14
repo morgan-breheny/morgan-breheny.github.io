@@ -9,8 +9,7 @@
   body {
     margin: 0;
     background: white;
-    background: url(top-image.png) no-repeat top center;
-    background: url(bottom-image.png) no-repeat bottom center;
+    background: url(top-image.png) no-repeat top center, url(bottom-image.png) no-repeat bottom center;
     border-top: 1mm solid red;
     border-bottom: 1mm solid red;
   }
