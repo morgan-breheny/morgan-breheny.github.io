@@ -41,9 +41,11 @@
   /* Your CSS below here */
   .top{
     max-width: 100%;
+    background-position: top center;
   }
-  
+
   .bottom{
     max-width: 100%;
+    background-position: bottom center;
   }
  
