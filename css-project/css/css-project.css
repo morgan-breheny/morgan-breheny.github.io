@@ -38,6 +38,8 @@ a {
 }
 .tiles article h3 {
 	font-size: 1.75em;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	letter-spacing: .03em;
 }
 .tiles article h3 a:hover {
 	color: inherit;
@@ -87,11 +89,13 @@ a {
 }
 	#banner h1 {
 		font-size: 3.25em;
+		font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+		letter-spacing: .03em;
 	}
 	#banner > .inner .content p {
-		font-size: 0.7em;
+		font-size: 1em;
 		font-weight: 600;
-		letter-spacing: 0.25em;
+		letter-spacing: 0.3em;
 		text-transform: uppercase;
 	}
 #wrapper > * > .inner {
