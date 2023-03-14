@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ICA 9: Interactive Elements</title>
+    <style>
+        #button{
+            border: 5px solid darkmagenta;
+            border-radius: 20px;
+            background-color: magenta;
+            padding: 25px 50px;
+            width: 250px;
+            font-size: 50px;
+        }
+        #button2{
+            border: 5px solid darkcyan;
+            border-radius: 20px;
+            background-color: aquamarine;
+            padding: 25px 50px;
+            width: 250px;
+            font-size: 50px;
+        }
+
+    </style>
+</head>
+<body>
+   <div id="button">
+        <p>Click me!</p>
+   </div>
+
+   <div id="button2">
+    <p>Click me too!</p>
+</div>
+   
+   <script>
+        console.log("Hello World!");
+        let button = document.querySelector("#button");
+        // console.log(button);
+        
+
+        function changeButton1() {
+            // console.log("This worked");
+             button.textContent = "TEST";
+        }
+
+        function changeButton2() {
+            // console.log("This worked");
+             button.textContent = "TEST";
+             button2.style.backgroundColor = "darkcyan";
+             button2.style.color= "white";
+        }
+
+        button.addEventListener('click', changeButton1);
+
+        button2.addEventListener('click', changeButton2);
+
+    </script>
+</body>
+</html>
