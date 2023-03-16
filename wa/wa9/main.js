@@ -28,8 +28,9 @@ function result() {
 
   newStory = newStory.replace(":insertx:", xItem );
   newStory = newStory.replace(":inserty:", yItem );
-  newStory = newStory.replace(":insert:z", zItem );
-
+  newStory = newStory.replace(":insertz:", zItem );
+  newStory = newStory.replace(":insertx:", xItem );
+  
   if(customName.value !== '') {
     let name = customName.value;
     newStory = newStory.replace('Bob', name);
@@ -46,6 +47,8 @@ function result() {
   story.textContent = newStory;
   story.style.visibility = 'visible';
 }
+
+
 
 
 
