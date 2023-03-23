@@ -1,3 +1,112 @@
+html {
+	box-sizing: border-box;
+}
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+body {
+	background: gray;
+	color: #ffffff;
+	font-family: "Source Sans Pro", Helvetica, sans-serif;
+}
+a {
+	text-decoration: none;
+	color: white;
+}
+.tiles {
+	display: flex;
+	flex-wrap: wrap;
+}		
+.tiles article {
+	align-items: center;
+	display: flex;
+	padding: 4em 4em 2em 4em ;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	cursor: default;
+	height: 40vh;
+	max-height: 40em;
+	min-height: 23em;
+	overflow: hidden;
+	position: relative;
+	width: 50%;
+}
+.tiles article header {
+	position: relative;
+	z-index: 3;
+}
+.tiles article h3 {
+	font-size: 1.75em;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	letter-spacing: .03em;
+}
+.tiles article h3 a:hover {
+	color: inherit;
+}
+.tiles article:before {
+	transition: opacity 0.5s ease;
+	bottom: 0;
+	content: '';
+	display: block;
+	height: 100%;
+	left: 0;
+	opacity: 0.85;
+	position: absolute;
+	width: 100%;
+	z-index: 2;
+}
+.tiles article:hover:before {
+	opacity: 0;
+}
+.tiles article:nth-child(6n - 5):before {
+	background-color: lightgreen;
+}
+.tiles article:nth-child(6n - 4):before {
+	background-color: plum;
+}
+@media screen and (max-width: 980px) {
+	.tiles article {
+	width: 50% !important;
+	}
+}
+#banner {
+	align-items: center;
+	background-color: lightskyblue;
+	display: flex;
+	padding: 6em 0 2em 0 ;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-bottom: 0;
+	height: 60vh;
+	margin-bottom: -3.25em;
+	max-height: 32em;
+	min-height: 22em;
+	position: relative;
+	top: -3.25em;
+}
+	#banner h1 {
+		font-size: 3.25em;
+		font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+		letter-spacing: .03em;
+	}
+	#banner > .inner .content p {
+		font-size: 1em;
+		font-weight: 600;
+		letter-spacing: 0.3em;
+		text-transform: uppercase;
+	}
+#wrapper > * > .inner {
+	padding: 4em 0 2em 0 ;
+	margin: 0 auto;
+	max-width: 65em;
+	width: calc(100% - 6em);
+}
+
+
+
 h1 {
   font-family: helvetica, arial, sans-serif;
   text-align: center;
