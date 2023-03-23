@@ -108,8 +108,9 @@ a {
 
 
 h1 {
-  font-family: helvetica, arial, sans-serif;
-  text-align: center;
+	color: pink;
+	font-family: "Source Sans Pro", Helvetica, sans-serif;
+  	text-align: center;
 }
 
 body {
