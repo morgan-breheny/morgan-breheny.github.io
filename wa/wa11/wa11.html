@@ -12,13 +12,20 @@
 
     <div class="display">
         <p id="text"></p>  
-        <h3 id="author"></h3>
     </div>
 
+    <p id="source"></p>
+
     <button type="button" class="button">Click here to generate a new quote.</button>
-    <div id="count"></div>
 
     <script src="wa11.js"></script>
+
+    <p>
+      I extended this API by adding the source of the quote.<br>
+      To do this, I added the "source" id to my HTML. Then I <br>
+      updated my new quote function in javascript by adding <br>
+      "source.innerText = "Source: " + item.author;".
+    </p>
 </body>
 </html>
 
