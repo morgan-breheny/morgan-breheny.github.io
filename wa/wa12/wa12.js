@@ -22,6 +22,7 @@ const sam = {
     salary: 21200,
     raiseEligible: false
   };
+  console.log('Problem 1: ', sam, mary, bill);
   
   // Problem 2
   const techStars = {
@@ -29,6 +30,7 @@ const sam = {
     website: 'www.techstars.site',
     employees: [sam, mary, bill]
   };
+  console.log('Problem 2: ', techStars);
   
   // Problem 3
   const anna = {
@@ -40,13 +42,14 @@ const sam = {
   };
   
   techStars.employees.push(anna);
+  console.log('Problem 3: ', techStars.employees);
   
   // Problem 4
   let totalSalary = 0;
   techStars.employees.forEach(employee => {
     totalSalary += employee.salary;
   });
-  console.log('Total salary for all company employees:', totalSalary);
+  console.log('Problem 4: Total salary for all company employees is', totalSalary);
   
   // Problem 5
   techStars.employees.forEach(employee => {
@@ -56,12 +59,14 @@ const sam = {
       employee.raiseEligible = false;
     }
   });
+  console.log('Problem 5: ', techStars.employees);
   
   // Problem 6
   const workingFromHome = ['Anna', 'Sam'];
   techStars.employees.forEach(employee => {
     employee.wfh = workingFromHome.includes(employee.firstName);
   });
+  console.log('Problem 6: ', techStars.employees);
   
   console.log(techStars); 
   
