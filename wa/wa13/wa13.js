@@ -1,11 +1,10 @@
 
-
 function check() {
     console.log('test');
 }
 
 function submit() {
-    alert(output.textContent);
+    alert('your vomue is now: ' + output.textContent);
 }
 
 function reset() {
